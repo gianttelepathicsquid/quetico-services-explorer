@@ -8,7 +8,10 @@ export const metadata: Metadata = {
   title: 'Quetico 3PL Services',
   description: 'Explore our comprehensive third-party logistics solutions',
   icons: {
-    icon: '/favicon.ico',
+    icon: [
+      { url: '/favicon.ico' },
+      { url: '/favicon.svg', type: 'image/svg+xml' }
+    ],
   },
 }
 
