@@ -204,11 +204,14 @@ const ServicesExplorer = () => {
               Let's discuss how Quetico's expertise can transform your logistics operations.
             </p>
             <button
-              onClick={() => window.location.href = '/contact'}
-              className="bg-sky-400 text-[#00204E] px-8 py-4 rounded-lg font-semibold hover:bg-sky-300 transition-colors duration-300 flex items-center gap-2 mx-auto"
+              onClick={() => navigateToContactForm('services-explorer')}
+              className="bg-sky-400 text-[#00204E] px-8 py-4 rounded-lg font-semibold 
+                hover:bg-sky-300 transition-colors duration-300 
+                flex items-center gap-2 mx-auto group"
             >
               Get Started
-              <ArrowRight className="h-5 w-5" />
+              <ArrowRight className="h-5 w-5 transform transition-all duration-300 
+                group-hover:translate-x-1" />
             </button>
           </div>
         </div>
